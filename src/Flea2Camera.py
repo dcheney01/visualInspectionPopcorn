@@ -93,7 +93,7 @@ class FleaCam():
                 Trigger On = 0
         '''
         # Meta Parameters
-        SUTTER_SPEED = 12.0
+        SUTTER_SPEED = 5.0 #does same thing as top slider on camera. This works with knob turned all the way CCW.
         WHITE_BALANCE_R = 560
         WHITE_BALANCE_B = 740
         GAIN_A = 200

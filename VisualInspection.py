@@ -17,6 +17,12 @@ if WEBCAM:
 else:
     from src.Flea2Camera import FleaCam
     camera = FleaCam()
+    camera.set
+
+
+test_type = "test" # good, acceptable (ugly), bad, mixed, validation 
+count = 0
+speed = 0
 
 while True:
     # Get Opencv Frame
@@ -29,6 +35,8 @@ while True:
     cv.imshow('frame',frame)
 
 
+    cv.imwrite(f"/data/raw_data/{test_type}_{speed}_{count}")
+    count += 1
     # Press Q on keyboard to  exit
     if cv.waitKey(25) & 0xFF == ord('q'):
       break
