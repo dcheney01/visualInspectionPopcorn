@@ -5,16 +5,17 @@ ECEn-631 Visual Inspection Project created by Harrison Garrett in 2020
 
 import cv2 as cv
 import numpy as np
+
 '''
 Set WEBCAM to 1 to use your webcam or 0 to use the Flea2 cameras on the lab machine
 Set CATCHER to 1 to use the catcher connected to the lab machine or 0 to use your own computer
 '''
-WEBCAM = 1
+WEBCAM = 0
 CATCHER = 0
 if WEBCAM:
     camera = cv.VideoCapture(0)
 else:
-    from src.Flea2Camera2 import FleaCam
+    from src.Flea2Camera import FleaCam
     camera = FleaCam()
 
 while True:
