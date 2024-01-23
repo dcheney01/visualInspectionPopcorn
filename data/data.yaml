@@ -1,0 +1,9 @@
+path: "/home/daniel/software/visualInspectionPopcorn/data/split_data/"
+train: train
+val: val 
+
+nc: 3
+names:
+  0: good
+  1: acceptable
+  2: bad
