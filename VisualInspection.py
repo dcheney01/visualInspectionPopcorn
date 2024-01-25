@@ -34,9 +34,11 @@ while True:
     # print(cv_image.shape)
     cv.imshow('frame',frame)
 
+    
 
-    cv.imwrite(f"/data/raw_data/{test_type}_{speed}_{count}")
-    count += 1
+
+    # cv.imwrite(f"/data/raw_data/{test_type}_{speed}_{count}")
+    # count += 1
     # Press Q on keyboard to  exit
     if cv.waitKey(25) & 0xFF == ord('q'):
       break
