@@ -4,3 +4,13 @@ __pycache__
 *.png
 *.jpg
 *.txt
+*.data
+*.pt
+*.yaml
+events.*
+*.csv
+*.json
+*.names
+*.log
+*.wandb
+*.cache

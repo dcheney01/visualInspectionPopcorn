@@ -47,19 +47,18 @@ def rename_data(folder):
                 label_counter += 1
 
 if __name__ == "__main__":
-    # rename_data("/home/daniel/software/visualInspectionPopcorn/data/annotated_data")
     # FOR IMAGES
-    # folder_path = "/home/daniel/software/visualInspectionPopcorn/data/raw_data"
-    # folders = ["acceptable"]
-    # save_path = "/home/daniel/software/visualInspectionPopcorn/data/annotated_data/imgs"
+    folder_path = "/home/daniel/software/visualInspectionPopcorn/data/raw_data/webcam/images"
+    folders = ["good", "bad", "acceptable"]
+    save_path = "/home/daniel/software/visualInspectionPopcorn/data/annotated_data/webcam/images"
 
-    # process_labels(folder_path, folders, save_path, add="", extension=".png")
+    process_labels(folder_path, folders, save_path, add="", extension=".png")
 
 
     # FOR LABELS
-    folder_path = "/home/daniel/Downloads"
-    folders = ["acceptable"]
-    save_path = "/home/daniel/software/visualInspectionPopcorn/data/annotated_data/labels"
+    folder_path = "/home/daniel/software/visualInspectionPopcorn/data/raw_data/webcam/labels"
+    folders = ["good", "bad", "acceptable"]
+    save_path = "/home/daniel/software/visualInspectionPopcorn/data/annotated_data/webcam/labels"
 
     process_labels(folder_path, folders, save_path)
 
