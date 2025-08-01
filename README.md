@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Visual Inspection Popcorn Quality Control
 
 An automated quality control system for popcorn manufacturing using computer vision and YOLO object detection. This project implements real-time visual inspection to classify popcorn quality into good, acceptable, and bad categories.
@@ -33,3 +34,6 @@ Developed for ECEN-631, this system provides automated quality assurance for pop
 - `data/` - Training datasets and annotations
 - `runs/` - Model training results and checkpoints
 - `video_from_imgs.py` - Video creation from image sequences
+=======
+# visualInspectionPopcorn
+>>>>>>> adbc5ae0658d61b73ba27e6c48175fa21eda03d4
